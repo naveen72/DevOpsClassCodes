@@ -6,7 +6,7 @@
   "containerDefinitions": [
     {
       "name": "ecs-fargate-cluster-demo-svc",
-      "image": "045959739851.dkr.ecr.us-east-1.amazonaws.com/tomcat:15",
+      "image": "045959739851.dkr.ecr.us-east-1.amazonaws.com/tomcat:%BUILD_NUMBER%",
       "cpu": 4096,
       "memory": 16384,
       "portMappings": [
